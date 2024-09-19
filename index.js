@@ -13,7 +13,7 @@ let chunks = []; // media data is stored in chunks
 
 let constraints = {
     audio: true,
-    video: true,
+    video: false,
 };
 
 if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
